@@ -1,24 +1,26 @@
 body{font-family: "Rubik","Arial",sans-serif;
 margin:0;
-color:#5e5e5e}
+color:#5e5e5e;
+background-image:url('../docs/images/bg.jpg');}
 body a {
     text-decoration: none;
     color:#470218;
 }
-
+ul{ padding:0;
+    list-style: none;}
 .site-header {
-background-color: #ebdadf;
-color:#470218;
+background-color: rgba(0,0,0,0.5);
+color:whitesmoke;
 position:fixed;
 top:0;
 width:100%;
-
+}
+.site-header a{
+    color:whitesmoke; 
 }
 .site-header-inner {
     width: 90%;
     margin: 0 auto;
-    padding-top:15px;
-    padding-bottom:15px;
     display:flex;
 justify-content:space-between;
 align-items:baseline;
@@ -38,7 +40,7 @@ flex-wrap:wrap;
     color:#9c0535;
     box-shadow: 12px rgba(150, 180, 200, .6);
 }
-nav ul{padding:0;}
+
     nav ul li {
         display: inline;
         margin-left: 0.5em;
@@ -48,20 +50,27 @@ nav ul{padding:0;}
      
  .site-banner{
         width:100%;
-        background-color: #fce3eb;
+        background-color:rgba(235, 218, 223,.8);
         border-radius: 0px 0px 100px 100px;
         color:#470218;
+        
     }
-    .small-section{width: 92%;
+    .small-section{
+        width: 92%;
+        max-width: 1000px;;
+        margin: 0 auto;
+        
     }
     .site-banner-inner{
         text-align: center;
-        padding-top: 110px;
+        padding-top: 80px;
         padding-bottom: 20px;
         line-height: 150%;    
     }
     .site-banner-inner img{
-        border-radius: 50%;
+        border: 7px solid white;
+        border-radius: 20px;
+        margin-top:30px
     }
     .site-banner-inner h1{
         font-size:400%;
@@ -70,8 +79,15 @@ nav ul{padding:0;}
         font-size: 150%;
     }
     .main-content{    
-        padding-top:130px;
-        padding-bottom: 130px;
+       
+        padding:50px 35px 50px 35px;
+        background-color: whitesmoke;
+        box-sizing: border-box;
+        box-shadow: 0 9px 0px 0px #f0f1f5, 0 -9px 0px 0px #f0f1f5, 12px 0 15px -4px rgba(179, 178, 175, 0.97), -12px 0 15px -4px rgba(179, 178, 175, 0.97);
+    }
+    .main-content h2{
+        font-size:180%;
+        letter-spacing: 2px;
     }
     .btn{
         background-color:#c3c7ad;
@@ -79,9 +95,34 @@ nav ul{padding:0;}
         padding:15PX 32PX;
         font-size:150%;
     }
+    .my-work{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        
+        width:100%;}
+        .my-work li{
+            width:400px ;           
+            padding: 30px;
+            margin:15px 0px 15px 0px;
+            box-sizing: border-box;
+            border:#f0f1f5 solid 5px;
+            
+        }
+        .my-work li img {
+            max-width:100%;
+            max-height:100%;
+            display:block;
+            margin:0 auto;
+            border-radius: 10px;
+            transition: transform .2s; /* Animation */}  
+            .my-work li img:hover{
+                transform: scale(1.1);
+            } 
+        
     .site-cta{
         border-radius: 100px 100px 0px 0px;
-        background-color: #fce3eb;
+        background-color:rgba(235, 218, 223,.8);
     }
     .inner-site-cta{
         display: flex;
@@ -157,8 +198,11 @@ nav ul{padding:0;}
         }
         .main-content{
             padding-top:50px;
-            padding-bottom: 50px;
+            padding-bottom: 50px;          
+            padding:50px 25px 50px 25px;
         }
+        .my-work li{
+           width:100% ;}
         .btn{
             background-color:#c3c7ad;
             border-radius: 70px;
@@ -185,11 +229,7 @@ nav ul{padding:0;}
     /*align the banner in the middle for big screens*/
     @media screen and (max-width: 1920px)
     {
-        .small-section{
-            max-width: 925px;
-            margin:0 auto;
-        }
-
+       
         .inner-site-cta{
             max-width: 1200px;
         }
