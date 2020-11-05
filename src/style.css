@@ -1,7 +1,8 @@
 body{font-family: "Rubik","Arial",sans-serif;
 margin:0;
 color:#5e5e5e;
-background-image:url('../docs/images/bg.jpg');}
+background-image:url('../docs/images/bg.jpg');
+background-size: cover;}
 body a {
     text-decoration: none;
     color:#470218;
@@ -51,12 +52,12 @@ flex-wrap:wrap;
  .site-banner{
         width:100%;
         background-color:rgba(235, 218, 223,.8);
-        border-radius: 0px 0px 100px 100px;
+        border-radius: 0px 0px 62px 62px;
         color:#470218;
         
     }
     .small-section{
-        width: 92%;
+        width: 88%;
         max-width: 1000px;;
         margin: 0 auto;
         
@@ -79,11 +80,11 @@ flex-wrap:wrap;
         font-size: 150%;
     }
     .main-content{    
-       
-        padding:50px 35px 50px 35px;
+       text-align: center;
+        padding:50px 50px 50px 50px;
         background-color: whitesmoke;
         box-sizing: border-box;
-        box-shadow: 0 9px 0px 0px #f0f1f5, 0 -9px 0px 0px #f0f1f5, 12px 0 15px -4px rgba(179, 178, 175, 0.97), -12px 0 15px -4px rgba(179, 178, 175, 0.97);
+        box-shadow:  12px 0 15px -4px rgba(179, 178, 175, 0.97), -12px 0 15px -4px rgba(179, 178, 175, 0.97);
     }
     .main-content h2{
         font-size:180%;
@@ -98,13 +99,12 @@ flex-wrap:wrap;
     .my-work{
         display:flex;
         flex-wrap: wrap;
-        justify-content:space-around;
-        
+        justify-content:space-between;
         width:100%;}
-        .my-work li{
-            width:400px ;           
-            padding: 30px;
-            margin:15px 0px 15px 0px;
+    .my-work li{
+            width:428px ;           
+            padding: 30px 30px 10px 30px;
+            margin: 15px auto;
             box-sizing: border-box;
             border:#f0f1f5 solid 5px;
             
@@ -114,14 +114,15 @@ flex-wrap:wrap;
             max-height:100%;
             display:block;
             margin:0 auto;
-            border-radius: 10px;
+            border-radius: 7px;
+            box-shadow: 0 1px 5px rgba(0,0,0,.05), 0 5px 30px rgba(0,0,0,.2);
             transition: transform .2s; /* Animation */}  
             .my-work li img:hover{
                 transform: scale(1.1);
             } 
         
     .site-cta{
-        border-radius: 100px 100px 0px 0px;
+        border-radius: 62px 62px 0px 0px;
         background-color:rgba(235, 218, 223,.8);
     }
     .inner-site-cta{
@@ -133,6 +134,8 @@ flex-wrap:wrap;
         color:#470218;
         padding-top:15px;
         padding-bottom:15px;
+        max-width: 1200px;  
+        
     }
     .site-cta-item{
        padding:15px 0px;
@@ -167,7 +170,7 @@ flex-wrap:wrap;
 
     }
    
-    @media screen and (max-width: 700px){
+    @media screen and (max-width: 780px){
         .site-header-inner {
             flex-direction: column;
             justify-content:center;
@@ -180,7 +183,7 @@ flex-wrap:wrap;
             margin-bottom:7px;
         }
         .site-banner{
-            border-radius:  0px 0px 50px 50px;
+            border-radius:  0px 0px 37px 37px;;
         }
         
         .site-banner-inner{
@@ -201,8 +204,7 @@ flex-wrap:wrap;
             padding-bottom: 50px;          
             padding:50px 25px 50px 25px;
         }
-        .my-work li{
-           width:100% ;}
+        
         .btn{
             background-color:#c3c7ad;
             border-radius: 70px;
@@ -226,11 +228,5 @@ flex-wrap:wrap;
     }
     
     
-    /*align the banner in the middle for big screens*/
-    @media screen and (max-width: 1920px)
-    {
-       
-        .inner-site-cta{
-            max-width: 1200px;
-        }
-    }
+   
+   
