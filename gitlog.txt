@@ -1,3 +1,9 @@
+commit bec5c02c54884c5899ab4f2e8d45583a43781f1e
+Author: robaElshazly <roba1818@gmail.com>
+Date:   Fri Nov 6 12:12:23 2020 +1000
+
+    adding integrity to css files
+
 commit f678209d881f7180a13829bd27b3266a3cc73e38
 Author: robaElshazly <roba1818@gmail.com>
 Date:   Thu Nov 5 12:30:54 2020 +1000
