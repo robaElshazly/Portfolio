@@ -1,65 +1,61 @@
 body{font-family: "Rubik","Arial",sans-serif;
 margin:0;
-color:#5e5e5e;
-background-image:url('../docs/images/bg.jpg');
-background-size: cover;}
+color:#5e5e5e; /*Color of the text*/
+background-image:url('../docs/images/bg.jpg');/*backgroung image of the body*/
+background-size: cover; /*zoom the picture in to fit the page without repeating the image*/ }
 body a {
-    text-decoration: none;
-    color:#470218;
+    text-decoration: none; /*remove links underline in the whole body*/ 
+    color:#470218; /*setting the link color in the page*/
 }
 ul{ padding:0;
-    list-style: none;}
+    list-style: none;/*remove bullet points from each item*/}
 .site-header {
-background-color: rgba(0,0,0,0.5);
-color:whitesmoke;
+background-color: rgba(0,0,0,0.5); /*color of the header is black with .5 opacity*/
 position:fixed;
-top:0;
+top:0; /*fixing the header in page top as you scroll*/
 width:100%;
+z-index:100;/*make the header on top of the animating components*/
 }
 .site-header a{
-    color:whitesmoke; 
+    color:whitesmoke; /*overriding the link font color in the body*/
 }
 .site-header-inner {
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto; /*centering the header element in the middle*/
     display:flex;
-justify-content:space-between;
-align-items:baseline;
-flex-wrap:wrap;
+    justify-content:space-between;/*seperating the nav and logo to far right and left respectively*/
+    align-items:baseline; /*align nav and logo text on the same horizontal line  */
+    flex-wrap:wrap;
 }
 
 
-.site-logo label {
-    font-weight: 700;
-    margin: 0;
-    font-size: 150%;
+.site-logo {  
     text-transform: uppercase;
     
     }
    
    nav a:hover,.site-cta a:hover{
-    color:#9c0535;
-    box-shadow: 12px rgba(150, 180, 200, .6);
+    color:#9c0535; /*change the color of the nav and cta link text when hovered*/
 }
 
     nav ul li {
-        display: inline;
+        display: inline; /*algining nav items in the same line*/
         margin-left: 0.5em;
-        margin-right: 0.5em;        
+        margin-right: 0.5em; /*give a space between the nave item*/       
     }
     
      
  .site-banner{
         width:100%;
-        background-color:rgba(235, 218, 223,.8);
-        border-radius: 0px 0px 62px 62px;
+        background-color:rgba(235, 218, 223,.8); /*adding color and opacity to the banner background*/
+        border-radius: 0px 0px 62px 62px; /*giving round corners to the banner*/
         color:#470218;
         
     }
     .small-section{
         width: 88%;
-        max-width: 1000px;;
-        margin: 0 auto;
+        max-width: 1000px;  
+        margin: 0 auto; /*algining contents in the middle of the page*/
         
     }
     .site-banner-inner{
@@ -68,7 +64,7 @@ flex-wrap:wrap;
         padding-bottom: 20px;
         line-height: 150%;    
     }
-    .site-banner-inner img{
+    .site-banner-inner img{          /*styling personal image*/
         border: 7px solid white;
         border-radius: 20px;
         margin-top:30px
@@ -80,23 +76,23 @@ flex-wrap:wrap;
         font-size: 150%;
     }
     .main-content{    
-       text-align: center;
         padding:50px 50px 50px 50px;
         background-color: whitesmoke;
         box-sizing: border-box;
+        /*giving a shadow to the left and right of the main content section*/
         box-shadow:  12px 0 15px -4px rgba(179, 178, 175, 0.97), -12px 0 15px -4px rgba(179, 178, 175, 0.97);
     }
     .main-content h2{
         font-size:180%;
         letter-spacing: 2px;
     }
-    .btn{
+    .btn{    /*styling buttons in the page*/
         background-color:#c3c7ad;
         border-radius: 70px;
         padding:15PX 32PX;
         font-size:150%;
     }
-    .my-work{
+    .my-work{    /*algining the list of my work and make the wrap in response to screen size*/
         display:flex;
         flex-wrap: wrap;
         justify-content:space-between;
@@ -104,7 +100,7 @@ flex-wrap:wrap;
     .my-work li{
             width:428px ;           
             padding: 30px 30px 10px 30px;
-            margin: 15px auto;
+            margin: 15px auto; /*centering every item of my work in the middle of the allowed width*/
             box-sizing: border-box;
             border:#f0f1f5 solid 5px;
             
@@ -113,19 +109,19 @@ flex-wrap:wrap;
             max-width:100%;
             max-height:100%;
             display:block;
-            margin:0 auto;
+            margin:0 auto; /*centering images of the projects horizontally in there container*/
             border-radius: 7px;
             box-shadow: 0 1px 5px rgba(0,0,0,.05), 0 5px 30px rgba(0,0,0,.2);
             transition: transform .2s; /* Animation */}  
-            .my-work li img:hover{
-                transform: scale(1.1);
+        .my-work li img:hover{
+            transform: scale(1.1); /* zooming in projects images when hovering*/
             } 
         
     .site-cta{
         border-radius: 62px 62px 0px 0px;
         background-color:rgba(235, 218, 223,.8);
     }
-    .inner-site-cta{
+    .inner-site-cta{     /* algining "get in touch" button horizotally with social media list*/
         display: flex;
         flex-wrap: wrap; 
         justify-content:space-between;
@@ -137,7 +133,7 @@ flex-wrap:wrap;
         max-width: 1200px;  
         
     }
-    .site-cta-item{
+    .site-cta-item{ /*giving width to both the "get in touch" button and social media list*/ 
        padding:15px 0px;
         width:48%;
      }
@@ -151,14 +147,14 @@ flex-wrap:wrap;
      text-transform: uppercase;
      display:flex;
      justify-content:flex-start;
-     align-items:center;
+     align-items:center; /*aligning social media text and image horizontally*/
      font-size:150%;
     } 
     .site-cta-item li a{
-        margin-left:7px;
+        margin-left:7px; /*separating social media text and image*/
     }
     .site-cta-item li:not(:last-child) {
-        margin-bottom: 30px;
+        margin-bottom: 30px; /*give a space between social media links*/
     }
     
   
@@ -170,8 +166,8 @@ flex-wrap:wrap;
 
     }
    
-    @media screen and (max-width: 780px){
-        .site-header-inner {
+    @media screen and (max-width: 700px){
+        .site-header-inner {  /*aliging header logo and nav items vertically when screem is small*/
             flex-direction: column;
             justify-content:center;
             align-items: center;
@@ -183,11 +179,10 @@ flex-wrap:wrap;
             margin-bottom:7px;
         }
         .site-banner{
-            border-radius:  0px 0px 37px 37px;;
+            border-radius:0px 0px 37px 37px;
         }
         
-        .site-banner-inner{
-            
+        .site-banner-inner{           /*adjusting padding for small screen*/   
             padding-top: 140px;
             padding-bottom: 35px;
             line-height: 150%
@@ -205,25 +200,24 @@ flex-wrap:wrap;
             padding:50px 25px 50px 25px;
         }
         
-        .btn{
-            background-color:#c3c7ad;
+        .btn{ /*make the button size smaller for small screen*/
             border-radius: 70px;
             padding: 15px 24px;
             font-size:100%;
         }
         .site-cta{
-            border-radius:50px 50px 0px 0px;
+            border-radius:37px 37px 0px 0px;
         }
         .inner-site-cta{
             padding-top:5px;
              padding-bottom:5px;           
         }
        
-        .site-cta-item:nth-child(n){
+        .site-cta-item:nth-child(n){ /*give cta items 100% width of the cta instead of 48%*/
             width:100%;           
         }
         .site-cta-item li{
-            font-size:100%;
+            font-size:100%; /*make font size smaller in small screens*/
         }
     }
     

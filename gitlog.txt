@@ -1,0 +1,23 @@
+commit f678209d881f7180a13829bd27b3266a3cc73e38
+Author: robaElshazly <roba1818@gmail.com>
+Date:   Thu Nov 5 12:30:54 2020 +1000
+
+    change blog design-adjusting responsive design
+
+commit a1963520c84b1b500bf0069e6f7e65526118df05
+Author: robaElshazly <roba1818@gmail.com>
+Date:   Wed Nov 4 12:13:08 2020 +1000
+
+    adding projects list-creating the blog page-changing theme color
+
+commit f44d568c85098ebf1719c41fd05606a346c4b471
+Author: robaElshazly <roba1818@gmail.com>
+Date:   Tue Nov 3 10:23:12 2020 +1000
+
+    adding responsiveness to layout and creating contact page
+
+commit 121e403dcde78a53f133c88fc8f9172e05850f19
+Author: robaElshazly <roba1818@gmail.com>
+Date:   Sun Nov 1 16:10:15 2020 +1000
+
+    adding files and coding header and banner

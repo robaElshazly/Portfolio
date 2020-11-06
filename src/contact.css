@@ -1,4 +1,4 @@
-.inner-form {
+.inner-form {      /*aligning form text boxes horizontally*/
     display: flex;
     flex-wrap: wrap;
     justify-content:space-between;
@@ -7,8 +7,9 @@ form {
     display: block;
    font-size: 1.3em;}
 label {
-    display: block;}
-    input[type=text],input[type=email],textarea{
+    display: block;   }
+
+    input[type=text],input[type=email],textarea{ /*styling the textbox*/
         width:100%;
         border-radius: 6px;
         border: 2px solid #e2e2e2;
@@ -30,24 +31,18 @@ label { padding-bottom: 15px;}
 textarea {
     min-height: 240px;
 }
-@media screen and (min-width: 701px){
-    
-   
-    
-   
-} 
     
 
 @media screen and (max-width: 700px){
    
-    .form-item-half ,.form-item-full{
+    .form-item-half ,.form-item-full{   /*allowing the text box to take the whole width when screen is smaller*/
         width: 100%;
     }
-    .form-item-half:nth-child(1n+2) {
+    .form-item-half:nth-child(1n+2) { /* giving space between second and first text box*/
         margin-top: 25px;}
     .form-item-full {
-        margin-top:25;  }
+        margin-top:25; /* giving space between "how can i help" and second text box */ }
     textarea { min-height: 180px;}
     input[type=text] , input[type=email] {
-        padding: 15px;}
+        padding: 15px;} /*make the padding smaller*/
 }
