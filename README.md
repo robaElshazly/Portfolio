@@ -12,23 +12,23 @@ I created this portofolio to showcase the Projects that I worked on in the past.
 
 ## Sitemap
 
-![sitemap](./docs/images/screen-shots/sitemap.png)
+![sitemap](./src/images/screen-shots/sitemap.png)
 
 ___
 ## Screenshots
 
 ### Home page wireframe
-![home](./docs/images/screen-shots/home-screenshot.png)
+![home](./src/images/screen-shots/home-screenshot.png)
 
 
 
 ### Contact page wireframe
-![home](./docs/images/screen-shots/contact-screenshot.png)
+![home](./src/images/screen-shots/contact-screenshot.png)
 
 
 
 ### Blog page wirframe
-![home](./docs/images/screen-shots/blog-screenshot.png)
+![home](./src/images/screen-shots/blog-screenshot.png)
 
 ___
 ## Target audience
