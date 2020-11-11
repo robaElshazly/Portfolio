@@ -1,7 +1,7 @@
 body{font-family: "Rubik","Arial",sans-serif;
 margin:0;
 color:#5e5e5e; /*Color of the text*/
-background-image:url('../docs/images/bg.jpg');/*backgroung image of the body*/
+background-image:url('./images/bg.jpg');/*backgroung image of the body*/
 background-size: cover; /*zoom the picture in to fit the page without repeating the image*/ }
 body a {
     text-decoration: none; /*remove links underline in the whole body*/ 
@@ -121,7 +121,7 @@ z-index:100;/*make the header on top of the animating components*/
         border-radius: 62px 62px 0px 0px;
         background-color:rgba(235, 218, 223,.8);
     }
-    .inner-site-cta{     /* algining "get in touch" button horizotally with social media list*/
+    .inner-site-cta{     /* aligning "get in touch" button horizotally with social media list*/
         display: flex;
         flex-wrap: wrap; 
         justify-content:space-between;
