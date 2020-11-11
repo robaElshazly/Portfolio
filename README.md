@@ -37,12 +37,15 @@ ___
 
 
 ##### Contact page wireframe
-![home](./src/images/screen-shots/contact-screenshot.png)
+![contact](./src/images/screen-shots/contact-screenshot.png)
 
 
 
 ##### Blog page wirframe
-![home](./src/images/screen-shots/blog-screenshot.png)
+![blog](./src/images/screen-shots/blog-screenshot.png)
+
+##### about page wirframe
+![about](./src/images/screen-shots/about-screenshot.png)
 
 ___
 #### Target audience

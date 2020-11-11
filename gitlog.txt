@@ -1,3 +1,21 @@
+commit c44821eaee5449982e656bfd39a8c69f0328710e
+Author: robaElshazly <roba1818@gmail.com>
+Date:   Wed Nov 11 21:01:14 2020 +1000
+
+    adding sha512 integrity-updating the about me page withthe resume
+
+commit 91e42b7ab4a2e41f4c652b901cb9e42dba662b86
+Author: robaElshazly <roba1818@gmail.com>
+Date:   Fri Nov 6 12:21:06 2020 +1000
+
+    chamge the image path in readme file
+
+commit 1fad97f85c0ba1c7751f3de2745029d4065197e5
+Author: robaElshazly <roba1818@gmail.com>
+Date:   Fri Nov 6 12:16:43 2020 +1000
+
+    moving images folder to src
+
 commit bec5c02c54884c5899ab4f2e8d45583a43781f1e
 Author: robaElshazly <roba1818@gmail.com>
 Date:   Fri Nov 6 12:12:23 2020 +1000
