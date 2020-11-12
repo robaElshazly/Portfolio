@@ -19,6 +19,7 @@ z-index:100;/*make the header on top of the animating components*/
 .site-header a{
     color:whitesmoke; /*overriding the link font color in the body*/
 }
+
 .site-header-inner {
     width: 90%;
     margin: 0 auto; /*centering the header element in the middle*/
@@ -34,7 +35,7 @@ z-index:100;/*make the header on top of the animating components*/
     
     }
    
-   nav a:hover,.site-cta a:hover{
+nav a:hover,.site-cta a:hover{
     color:#9c0535; /*change the color of the nav and cta link text when hovered*/
 }
 
