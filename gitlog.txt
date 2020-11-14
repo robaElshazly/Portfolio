@@ -1,3 +1,39 @@
+commit f28f826c1796e51d82d3b7e17528776574123602
+Author: robaElshazly <roba1818@gmail.com>
+Date:   Sun Nov 15 07:49:57 2020 +1000
+
+    update the presentation-change the wirframes path fromsrc to doc
+
+commit 9d5bdbd9c934b763ca50d5ee0d8daad720059175
+Author: robaElshazly <roba1818@gmail.com>
+Date:   Thu Nov 12 21:23:20 2020 +1000
+
+    updating the presentation slides
+
+commit 83345518d514cf3a82a0486144cdf83ec566ea42
+Author: robaElshazly <roba1818@gmail.com>
+Date:   Thu Nov 12 14:52:28 2020 +1000
+
+    change the screen-shots folder name to wireframes-include the presentation slides deck
+
+commit f37f3fd1d0fa62bb58b4e5f14ed5e1fb6119f0bd
+Author: robaElshazly <roba1818@gmail.com>
+Date:   Thu Nov 12 12:15:33 2020 +1000
+
+    changing the discription of each project
+
+commit 1711e939c695790d223932756acd48e759dac4d2
+Author: robaElshazly <roba1818@gmail.com>
+Date:   Thu Nov 12 12:11:20 2020 +1000
+
+    fixing a typo in the wireframe-changing the div of site-cta to a section component
+
+commit 4bfdc9f66711607f24e5517807c2b6f91144b01f
+Author: robaElshazly <roba1818@gmail.com>
+Date:   Wed Nov 11 21:16:36 2020 +1000
+
+    updating gitlog.txt with the last commit
+
 commit c1684ca9c6a7da23dd2e481a2d6b1adc2a06f3d6
 Author: robaElshazly <roba1818@gmail.com>
 Date:   Wed Nov 11 21:13:44 2020 +1000
