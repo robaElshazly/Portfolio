@@ -26,26 +26,26 @@ There is also a "get in touch" button in the bottom of every page.
 
 #### Sitemap
 
-![sitemap](./src/images/wireframes/sitemap.png)
+![sitemap](./docs/wireframes/sitemap.png)
 
 ___
 #### Screenshots
 
 ##### Home page wireframe
-![home](./src/images/wireframes/home-screenshot.png)
+![home](./docs/wireframes/home-screenshot.png)
 
 
 
 ##### Contact page wireframe
-![contact](./src/images/wireframes/contact-screenshot.png)
+![contact](./docs/wireframes/contact-screenshot.png)
 
 
 
 ##### Blog page wirframe
-![blog](./src/images/wireframes/blog-screenshot.png)
+![blog](./docs/wireframes/blog-screenshot.png)
 
 ##### about page wirframe
-![about](./src/images/wireframes/about-screenshot.png)
+![about](./docs/wireframes/about-screenshot.png)
 
 ___
 #### Target audience
