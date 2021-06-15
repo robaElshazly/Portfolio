@@ -1,4 +1,4 @@
-body{font-family: "Rubik","Arial",sans-serif;
+body{
 margin:0;
 color:#5e5e5e; /*Color of the text*/
 background-image:url('./images/bg.jpg');/*backgroung image of the body*/
@@ -224,4 +224,22 @@ nav a:hover,.site-cta a:hover{
     
     
    
-   
+    .project-list li{   
+        max-width:100%;
+        display:flex;    /*aligning image of the blog and its paragraph horizontally*/
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        padding:15px 0px 15px 0px;
+    }
+    .project-list li:not(:last-child){
+        border-bottom: 1px solid #dedcdc;}
+    .project-list li img{
+        width:300px;
+        height: 200px;
+        
+    }
+   .project-paragraph{
+        width: 470px;
+    } 
