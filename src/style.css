@@ -93,30 +93,8 @@ nav a:hover,.site-cta a:hover{
         padding:15PX 32PX;
         font-size:150%;
     }
-    .my-work{    /*algining the list of my work and make the wrap in response to screen size*/
-        display:flex;
-        flex-wrap: wrap;
-        justify-content:space-between;
-        width:100%;}
-    .my-work li{
-            width:428px ;           
-            padding: 30px 30px 10px 30px;
-            margin: 15px auto; /*centering every item of my work in the middle of the allowed width*/
-            box-sizing: border-box;
-            border:#f0f1f5 solid 5px;
-            
-        }
-        .my-work li img {
-            max-width:100%;
-            max-height:100%;
-            display:block;
-            margin:0 auto; /*centering images of the projects horizontally in there container*/
-            border-radius: 7px;
-            box-shadow: 0 1px 5px rgba(0,0,0,.05), 0 5px 30px rgba(0,0,0,.2);
-            transition: transform .2s; /* Animation */}  
-        .my-work li img:hover{
-            transform: scale(1.1); /* zooming in projects images when hovering*/
-            } 
+  
+    
         
     .site-cta{
         border-radius: 62px 62px 0px 0px;
@@ -238,8 +216,11 @@ nav a:hover,.site-cta a:hover{
     .project-list li img{
         width:300px;
         height: 200px;
-        
-    }
+        box-shadow: 0 1px 5px rgba(0,0,0,.05), 0 5px 30px rgba(0,0,0,.2);
+        transition: transform .2s; /* Animation */}  
+    .project-list li img:hover{
+        transform: scale(1.1); /* zooming in projects images when hovering*/
+            } 
    .project-paragraph{
         width: 470px;
     } 
